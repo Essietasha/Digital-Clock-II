@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #fffffffe;
+}
+
+.loginMainCont{
+  height: 100%;
+  width: 100%;
+}
+
+.gridCont{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  background-color: #efebd9;
+}
+
+.gridBoxI{
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+.logoP{
+  font-size: 40px;
+  color: #211951;
+  position: absolute;
+  top: -11px;
+  left: 130px;
+}
+
+h1{
+  font-size: 25px;
+  color: #313030;
+  margin-bottom: 10px;
+}
+
+.p1{
+  color: #464343;
+  font-weight: 600;
+  font-size: 16px;
+}
+#errorMessage{
+  color: red;
+  font-size: 12px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.emailPasswordCont{
+  margin: 40px 0px;
+  height: 230px;
+  width: 60%;
+  background-color: #E2DFD0;
+  border: 1px soild transparent;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.mailPBoxGrid{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  /* margin-top: 10px; */
+  width: 80%;
+  height: 30px;
+  background-color: #211951;
+}
+
+.mailPBoxGrid2{
+  margin-top: 10px;
+}
+
+.textPbox{
+  background-color: #fff;
+  height: 31px;
+  width: 200px;
+  color: #111;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.icons{
+  color: #fff;
+}
+
+.remeberMeGrid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.rmb{
+  color: #211951;
+  font-size: 14px;
+}
+
+#remember-me{
+  margin-right: 5px;
+}
+
+.fp{
+  color: #575353;
+}
+
+
+.fp:hover{
+  color: #064ACB;
+}
+
+.btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  height: 30px;
+}
+
+.loginBtn{
+height: 100%;
+width: 100%;
+background-color:#170d4f;
+color: #fff;
+font-size: 16px;
+border: 1px solid transparent;
+border-radius: 10px;
+}
+
+.imageCont{
+  background-image: url(https://img.freepik.com/free-photo/planet-earth-background_23-2150564685.jpg?t=st=1715261390~exp=1715264990~hmac=210b1ef53a546ca9e66f294ec05b305d815138a2d64eaf044d1a60a1793ba1ee&w=1060);
+  object-fit: contain;
+}
+
+
+
+
+.secWelcome{
+  background-color: #49243E;
+  width: 100%; 
+  min-height: 100vh; 
+  display: grid; 
+  place-content: center; 
+  box-shadow: 10px 10px 6px 20px inset #E59BE9;
+}
+
+#greeting{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: -60px;
+  background-color: #fff;
+  color: #49243E;
+  /* padding: 2px 100px; */
+  text-align: center;
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  box-shadow: 10px 10px 6px 10px inset #E59BE9;
+
+
+}
+
+#time{
+  /* background-color: #111; */
+  color: #fff;
+  margin-bottom: 15px;
+  margin-left: -45px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.btnClickHere{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 16px 80px;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+}
+
+.btnClickHere:hover{
+  border: 1px solid #fff;
+}
+
+.clockLogo{
+  background-color: #170d4f;
+  color: #fff;
+  padding-left: 20px;
+  /* height: 50px; */
+}
+
+.returnBtn{
+  width: 20%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.return{
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #c6cacd;
+}
+
+.return:hover{
+  background-color: #333;
+  color: #fff;
+  transition: 1s ease-in;
+}
+
+/* .ml{
+  margin-left: -30px;
+} */

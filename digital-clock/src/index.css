@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 2.0;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+
+body{
+  background-color: gainsboro;
+}
+
