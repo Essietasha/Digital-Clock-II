@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 const Welcome = () => {
@@ -30,7 +30,12 @@ const Welcome = () => {
         document.getElementById('greeting').textContent = message;
         document.getElementById('rtn').classList.add('ml');
     }
-    
+
+            const navigate = useNavigate();
+            function returnToHome (){
+                return navigate('/');
+    };
+
   return (
     <section className='secWelcome'>
     <div className="mainCont">
@@ -40,7 +45,7 @@ const Welcome = () => {
         </div>
 
         <div className="helloCont"><button className='btnClickHere' onClick={runDate}>Hello, Click Here</button></div>
-        <div className="returnBtn"><button className='return' id='rtn'>Return</button></div>
+        <div className="returnBtn"><button onClick={returnToHome} className='return' id='rtn'>Return</button></div>
     </div>
 </section>
   )
